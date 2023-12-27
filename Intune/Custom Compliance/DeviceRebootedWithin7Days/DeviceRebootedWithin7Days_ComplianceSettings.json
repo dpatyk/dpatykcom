@@ -1,0 +1,23 @@
+{
+    "Rules": [
+        {
+            "SettingName": "DeviceRebootedWithin7Days",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://dpatyk.com",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "Restart your device",
+                    "Description": "A full shutdown or reboot within the last 7 days is required to keep your computer operational."
+                },
+                {
+                    "Language": "pl_PL",
+                    "Title": "Konieczne jest ponowne uruchomienie urządzenia",
+                    "Description": "Aby zapewnić prawidłowe funkcjonowanie Twojego urządzenia, konieczne jest ponowne uruchomienie komputera w ciągu ostatnich 7 dni."
+                }
+            ]
+        }
+    ]
+}
