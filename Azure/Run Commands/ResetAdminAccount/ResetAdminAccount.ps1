@@ -2,7 +2,7 @@
 $adminPassword = 'Insert your password here'
 
 # Get Admin account details
-$adminAccount = Get-LocalUser | ? { $_.SID -Like "S-1-5-21-*-500" -and $_.PrincipalSource -eq "Local" }
+$adminAccount = Get-LocalUser | ? { $_.SID -Like "S-1-5-21-*-500" }
 
 # Enable Admin account
 if (-not($adminAccount.Enabled)) {
