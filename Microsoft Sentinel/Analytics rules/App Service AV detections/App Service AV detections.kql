@@ -1,0 +1,9 @@
+AppServiceAntivirusScanAuditLogs 
+| where NumberOfInfectedFiles > 0
+| project
+    TimeGenerated,
+    ResourceName=tostring(split(_ResourceId, "/")[-1]),
+    ResourceId=_ResourceId,
+    NumberOfInfectedFiles,
+    ListOfInfectedFiles,
+    Source = Type

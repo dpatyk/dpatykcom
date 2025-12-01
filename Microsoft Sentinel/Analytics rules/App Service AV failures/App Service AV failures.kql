@@ -1,0 +1,8 @@
+AppServiceAntivirusScanAuditLogs 
+| where ScanStatus has "Failed"
+| project
+    TimeGenerated,
+    ResourceName=tostring(split(_ResourceId, "/")[-1]),
+    ResourceId=_ResourceId,
+    ErrorMessage,
+    Source = Type
