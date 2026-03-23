@@ -11,3 +11,4 @@ Each package consists of a **detection** and a **remediation** scripts. When you
 ## 🎯 Remediation list
 
 - [Wazuh-Agent-Scripts](./Wazuh-Agent-Scripts/) - Intune **run remediation** scripts for **one-time** installation, uninstallation or upgrade Wazuh agent on a specific device.
+- [Browser-Extensions-Report](./Browser-Extensions-Report/) - Intune remediation **detection scripts** to find unauthorized browser extensions.
