@@ -1,7 +1,18 @@
 
 # App Service AV detections
 
-## Scheduled analytics rule details
+Microsoft Sentinel **scheduled analytics rule** to **detect new infected files in App Services** from the antivirus scan audit log.
+
+## 🔧 Analytics rules list
+
+- **JSON**: [App Service AV detections.json](App%20Service%20AV%20detections.json)
+- **KQL Query**: [App Service AV detections.kql](App%20Service%20AV%20detections.kql)
+
+## ⚙️ Configuration
+
+The process of creating an analytics rule from a template, along with screenshots and the import wizard from the Microsoft Defender portal, is described in the linked blog posts.
+
+## 📦 Analytics rule details
 
 | Field | Description |
 | ----- | ----------- |
@@ -19,6 +30,7 @@
 | **Create incidents from this rule** | Enabled |
 | **Alert grouping** | Disabled |
 
-## Import scheduled analytics rule from template
+## 🔗 Blog posts
 
-[This article](https://dpatyk.com/en/blog/alerts-app-services-microsoft-sentinel/) describes the process of creating an analytics rule from template. It's accompanied by screenshots and directions to access the import wizard in the Microsoft Defender portal.
+- **Polish**: [Alerty o zagrożeniach z App Services - Microsoft Sentinel](https://dpatyk.com/blog/alerty-app-services-microsoft-sentinel/)
+- **English**: [Threats alerts from App Services - Microsoft Sentinel](https://dpatyk.com/en/blog/alerts-app-services-microsoft-sentinel/)
