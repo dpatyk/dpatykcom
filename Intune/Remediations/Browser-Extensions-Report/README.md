@@ -39,12 +39,12 @@ $AllowedIds = @(
 ## 🔗 Blog posts
 
 - **Polish**:
-    1. [Jak wykrywać zainstalowane rozszerzenia w przeglądarkach](https://dpatyk.com/blog/jak-wykrywac-zainstalowane-rozszerzenia-w-przegladarkach/)
-    2. [Audyt rozszerzeń przeglądarek w Microsoft Intune](https://dpatyk.com/blog/audyt-rozszerzen-przegl%C4%85darek-microsoft-intune/)
+  - [Jak wykrywać zainstalowane rozszerzenia w przeglądarkach](https://dpatyk.com/blog/jak-wykrywac-zainstalowane-rozszerzenia-w-przegladarkach/)
+  - [Audyt rozszerzeń przeglądarek w Microsoft Intune](https://dpatyk.com/blog/audyt-rozszerzen-przegladarek-microsoft-intune/)
 
 - **English**:
-    1. [How to Detect Installed Browser Extensions](https://dpatyk.com/en/blog/how-to-detect-installed-browser-extensions/)
-    2. [Browser Extensions Assessment in Microsoft Intune](https://dpatyk.com/en/blog/browser-extensions-assessment-microsoft-intune/)
+  - [How to Detect Installed Browser Extensions](https://dpatyk.com/en/blog/how-to-detect-installed-browser-extensions/)
+  - [Browser Extensions Assessment in Microsoft Intune](https://dpatyk.com/en/blog/browser-extensions-assessment-microsoft-intune/)
 
 ## 🧪 Sample output
 
